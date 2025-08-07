@@ -10,12 +10,13 @@ Consider following points
 
 I want to implement Security for this service 
 Consider below points
-* Authorization and authentication with spring security
-* Add role based autorization
-* Should follow clean code structure
-* Best security practices
-* Handling authentication and Authorization errors
-* Dont use depricated security methods
+* Authorization and authentication with Spring Security
+* Add role-based authorization
+* Use method-level authorization annotations in controller classes
+* Follow clean code structure
+* Apply best security practices
+* Handle authentication and authorization errors with proper HTTP status codes and messages
+* Do not use deprecated security methods
 
 I want to implement rest service call communication using Feign cliet
 consider below points
