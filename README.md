@@ -42,3 +42,10 @@ I want to implement global exception handler using Spring boot
  * Error response consist Http status code and user friendly exception messages
  * Add debug loggers as per requirement
  * updated Controller classes with required annotation like controller advice to support Global exception
+
+I Want to optimize performance of product service 
+consider below points
+ * Add spring cache dependency in pom xml file
+ * Implement cache using with Caffine library.
+ * Use pagination with spring data jpa fetch data for product list
+ * add spring actuator and micro meter end points to enable metrics end point.
